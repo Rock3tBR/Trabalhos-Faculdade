@@ -1,0 +1,75 @@
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #23232e;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+  }
+  
+  fieldset{
+    border: 2px solid #fff;
+  }
+  legend{
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+  }
+  .inputB{
+    position: relative;
+  }
+  .inputU{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+  }
+  .labelIn{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .inputU:focus ~ .labelIn,
+  .inputU:valid ~ .labelIn{
+    top: -20px;
+    font-size: 12px;
+    color: gray;
+  }
+  #submitL{
+    background-image: linear-gradient(to right, #46467f, #4e4e5f);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+  }
+  #submitL:hover{
+    background-image: linear-gradient(to right, #6f6fa8, #23232e);
+  }
+  #submitC{
+    background-image: linear-gradient(to right, #46467f, #4e4e5f);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+  }
+  #submitC:hover{
+    background-image: linear-gradient(to right, #6f6fa8, #23232e);
+  }
