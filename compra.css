@@ -1,0 +1,71 @@
+  @import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&display=swap');
+.pai{
+    display: flex;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+.box-u{
+    width: 300px;
+    padding: 10px;
+    background: #fefefe;
+    position: absolute;
+    left: 20%;
+    border-radius: 10px;
+}
+.w{
+    text-align: center;
+    height: 100%;
+}
+.desconto{
+    font-size: 20px;
+    border: 1px solid none;
+    color: black;
+    background: #42d42199;
+    width: 100%;
+}
+p{
+    color: black;
+}
+.frete{
+    color: #78e81ced;
+    font-size: 20px;
+}
+.p_antes{
+    color: gray;
+    font-size: 15px;
+}
+.p_depois{
+    font-size: 20px;
+}
+.parce{
+    font-size: 18px;
+}
+.comprar{
+    width: auto;
+    position: relative;
+    text-align: center;
+    left: 15%;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: -60px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-family: "Trebuchet MS",Arial,sans-serif
+}
+.box-d{
+    width: 300px;
+    padding: 10px;
+    background: #fefefe;
+    position: absolute;
+    left: 40%;
+    border-radius: 10px;
+}
+.box-t{
+    width: 300px;
+    padding: 10px;
+    background: #fefefe;
+    position: absolute;
+    left: 60%;
+    border-radius: 10px;
+}
